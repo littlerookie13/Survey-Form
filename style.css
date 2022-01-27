@@ -1,0 +1,198 @@
+body {
+    background:url(bg-img.jpg);
+    background-size: cover;
+}
+
+#main-div {
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+
+#form-bg {
+    background-color: rgba(44, 0, 75, 0.794);
+    display: block;
+    color:white;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    text-align: left;
+    font-size: 150%;
+    font-family: 'Roboto Mono', cursive;
+    border-radius: 1%;
+}
+
+/* TITLE */
+#title {
+    display: block;
+    color:rgb(255, 255, 255);
+    font-family: 'Roboto Mono', cursive;
+    font-size: 300%;
+    margin-top: 2%;
+    margin-bottom: 0.2%;
+}
+
+/* DESCRIPTION */
+#description {
+    display: block;
+    color:rgb(240, 240, 240);
+    font-family: 'Roboto Mono', cursive;
+    font-size: 150%;
+    font-style: italic;
+    margin-bottom: 2%;
+}
+
+/* NAME */
+#name-form {
+    display:block;
+    padding-bottom: 5%;
+}
+
+#name-form label {
+    display: block;
+}
+
+#user-name {
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    font-size: 80%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* EMAIL */
+#email-form {
+    display: block;
+    padding-bottom: 3%;
+}
+
+#email-form label {
+    display: block;
+}
+
+#email {
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    font-size: 80%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* NUMBER */
+#number-div {
+    display: block;
+    padding-bottom: 3%;
+}
+
+#number-div label {
+    display: block;
+}
+
+#number {
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    font-size: 80%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* DROPDOWN */
+#dropdown-div {
+   padding-bottom: 3%;
+}
+
+#dropdown-div select {
+    display: block;
+}
+
+#dropdown {
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    font-size: 80%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#dis-sel {
+    color: rgb(211, 211, 211);
+}
+
+/* RADIO BUTTONS */
+input[type='radio'] { 
+    transform: scale(1.8); 
+}
+
+#span-radio {
+    padding-bottom: 1%;
+}
+
+#radio-buttons-div {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 4%;
+}
+
+
+/* CHECKBOX */
+input[type='checkbox'] { 
+    transform: scale(1.8); 
+}
+
+#checkbox-title {
+    padding-bottom: 2%;
+}
+
+#checkbox-div {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+}
+
+/* TEXTAREA */
+#textarea-comment {
+    width: 100%;
+    font-size: 20px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    margin-bottom: 3%;
+    font-size: 80%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* SUBMIT BUTTON */
+#submit {   
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width:100%;
+}
